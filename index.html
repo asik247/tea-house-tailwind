@@ -115,7 +115,7 @@
         class="great_tea_section mb-[50px] max-sm:mb-[10px] flex gap-5 max-sm:flex-col-reverse ml-[80px] text-center"
       >
         <div
-          class="great_main grid grid-cols-2 grid-rows-3 gap-5 h-full w-1/2  max-sm:hidden "
+          class="great_main grid grid-cols-2 grid-rows-3 gap-5 h-full w-1/2 max-sm:hidden"
         >
           <div
             class="box_1 bg-gradient-to-r from-[#ff0000] to-[#ff8938] opacity-10 w-[238px]"
@@ -134,7 +134,9 @@
             class="box_4 bg-gradient-to-r from-[#bda8a8] to-[#ffffff00] opacity-100 w-[238px]"
           ></div>
         </div>
-        <div class="right_tea_div h-full w-1/2 max-sm:w-60 max-sm:text-center ml-[10px] text-left">
+        <div
+          class="right_tea_div h-full w-1/2 max-sm:w-60 max-sm:text-center ml-[10px] text-left"
+        >
           <h2 class="text-[35px] font-bold mb-[10px] max-sm:text-[25px]">
             Great Tea, Freshly Presented
           </h2>
@@ -166,7 +168,8 @@
       <section></section>
       <!-- news nad events -->
       <section>
-        <div class="news_main">
+        <div class="news_main
+        mb-10">
           <div
             class="news_title max-w-[500px] m-auto text-center max-sm:w-[300px]"
           >
@@ -184,9 +187,13 @@
             class="news_card_main grid grid-cols-3 gap-2 max-sm:grid-cols-1 max-sm:justify-items-center"
           >
             <div
-              class="news_card text-left shadow-2xl w-[364px] h-[400px] max-sm:w-[300px]  p-[10px] my-5"
+              class="news_card text-left shadow-2xl w-[364px] h-[400px] max-sm:w-[300px] p-[10px] my-5"
             >
-              <img class="mx-2.5 max-sm:ml-[-1px]" src="./images/news-1.png" alt="" />
+              <img
+                class="mx-2.5 max-sm:ml-[-1px]"
+                src="./images/news-1.png"
+                alt=""
+              />
               <p class="text-[12px] text-gray-500 my-3">feb 05 2017</p>
               <h3 class="font-bold">Collecting 8 points for discount</h3>
               <p class="text-gray-500 my-3">
@@ -199,7 +206,11 @@
             <div
               class="news_card text-left shadow-2xl w-[364px] h-[400px] max-sm:w-[300px] p-[10px] my-5"
             >
-              <img class="mx-2.5  max-sm:ml-[-1px]" src="./images/news-2.png" alt="" />
+              <img
+                class="mx-2.5 max-sm:ml-[-1px]"
+                src="./images/news-2.png"
+                alt=""
+              />
               <p class="text-[12px] text-gray-500 my-3">feb 05 2017</p>
               <h3 class="font-bold">Collecting 8 points for discount</h3>
               <p class="text-gray-500 my-3">
@@ -210,9 +221,13 @@
             </div>
 
             <div
-              class="news_card text-left shadow-2xl w-[364px] h-[400px] p-[10px]  max-sm:w-[300px] my-5"
+              class="news_card text-left shadow-2xl w-[364px] h-[400px] p-[10px] max-sm:w-[300px] my-5"
             >
-              <img class="mx-2.5  max-sm:ml-[-1px]" src="./images/news-3.png" alt="" />
+              <img
+                class="mx-2.5 max-sm:ml-[-1px]"
+                src="./images/news-3.png"
+                alt=""
+              />
               <p class="text-[12px] text-gray-500 my-3">feb 05 2017</p>
               <h3 class="font-bold">Collecting 8 points for discount</h3>
               <p class="text-gray-500 my-3">
@@ -225,5 +240,52 @@
         </div>
       </section>
     </header>
+    <footer class="bg-gray-300 h-[30vh]">
+      <div class="top_part_main flex justify-between items-center px-40">
+        <div>
+          <img class="w-[50px] " src="./images/bg_cup.png" alt="">
+        </div>
+        <div class="flex gap-5">
+          <h5>Ready to get strated?</h5>
+            <div>
+              <button>Get Strated</button>
+          </div>
+        </div>
+      
+      </div>
+      <hr>
+      <div class="buttom_part_main flex justify-between  px-20">
+        <div>
+          <h2>Quick Links</h2>
+          <a href="#">Home</a>
+          <a href="#">About us</a>
+          <a href="#">Insurance</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+        <div>
+          <h2>Our Service</h2>
+          <a href="#">Life Insurance</a>
+          <a href="#">Car Insurance</a>
+          <a href="#">health Insurance</a>
+          <a href="#">House Insurance</a>
+        </div>
+        <div>
+          <h2>Help</h2>
+          <a href="#">FAQs</a>
+          <a href="#">Contact Us</a>
+          
+        </div>
+        <div class="subcribe_icon">
+          <h2>Subscribe to our <br> newsletter</h2>
+          <input class="shadow-lg" type="text" placeholder="Email address">
+          <span><i class="fa-brands fa-facebook"></i></span>
+          <span><i class="fa-brands fa-linkedin"></i></span>
+          <span><i class="fa-brands fa-instagram"></i></span>
+        </div> 
+       
+      </div>
+   
+  
+    </footer>
   </body>
 </html>
