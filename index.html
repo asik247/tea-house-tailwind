@@ -16,318 +16,46 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Responsive Test Method -->
+    <style>
+      /* *{
+        border: 1px solid red;
+      } */
+      body {
+        border: 5px dotted rgb(3, 109, 209);
+      }
+    </style>
   </head>
   <body class="manrop_font">
-    <header class="max-w-[1200px] m-auto">
-      <div
-        class="banner_main flex flex-row max-sm:flex-col justify-center items-center"
-      >
-        <div class="left_site max-sm:text-center">
-          <h1
-            class="banner_title text-[70px] font-semibold leading-20 max-sm:text-[35px] max-sm:leading-10 capitalize"
-          >
+    <!-- Hero area section start here.. -->
+    <header class="max-w-[1100px] m-auto">
+      <div class="heroMain items-center md:flex">
+        <div class="heroTitle text-center md:text-left relative">
+          <h1 class="font-bold text-[45px]">
             It's good <br />
             tea time at The Tea House
           </h1>
-          <p class="banner_para text-[18px] font-[500px] my-[30px] max-sm:my-2">
+          <p class="text-gray-500 my-4">
             Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
             Your Taste Buds.
           </p>
-          <button
-            class="py-[10px] px-[15px] bg-gradient-to-r from-[#ec0505] to-[#0867a757] rounded-lg max-sm:my-5"
-          >
-            Explore More
-            <span class=""
-              ><i class="fa-solid fa-arrow-right -rotate-20"></i
-            ></span>
+          <button class="bg-gradient-to-r from-[#ff8938] to-[#ff0000] p-3 rounded-lg text-white" id="heroBtn ">
+            Explore More <i class="fa-solid fa-arrow-right text-white -rotate-25"></i>
           </button>
         </div>
-        <div class="right_site relative top-[50px]">
-          <img class="max-sm: w-[100%]" src="./images/banner.png" alt="" />
-
-          <div
-            class="chanelge_part flex items-center bg-white shadow-md rounded-lg w-35 absolute left-[120px] bottom-[-1px] max-sm:hidden"
-          >
+        <div class="heroImg">
+          <img src="./images/banner.png" alt="" />
+          <div class="challengPartMain flex gap-4  bg-gray-300 p-3 rounded-lg absolute -mt-[15%] ml-[25%] md:-mt-[6%] md:ml-[10%] " >
             <div class="icon">
-              <span class="text-[30px]"
-                ><i class="fa-solid fa-star-of-david"></i
-              ></span>
+              <i class="fa-solid fa-star"></i>
             </div>
-            <div class="title ml-5">
+            <div class="title">
               <h2>5.00</h2>
-              <p>Trust pilot reating</p>
+              <p>Trust Pilot Ratings</p>
             </div>
           </div>
         </div>
       </div>
-      <!-- Product section code start here -->
-      <section class="product_section">
-        <div class="product_main -[100px] mb-[50px]">
-          <div
-            class="projuct_title_descptin max-sm:mt-16 text-center max-w-[600px] m-auto mt-[100px] max-sm: w-[350px] my-10"
-          >
-            <h2 class="text-[30px] font-bold mb-[10px] max-sm:text-[25px]">
-              Our Featured Products
-            </h2>
-            <p class="mb-[25px] max-sm:text-[13px]">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable.
-            </p>
-          </div>
-          <div
-            class="card_parent grid grid-cols-4 gap-[10px] max-sm:grid-cols-1 justify-items-center"
-          >
-            <div
-              class="card_child max-w-[300px] justify-items-center bg-gray-200 rounded-md p-10"
-            >
-              <img src="./images/tea-1.png" alt="" />
-              <h4 class="font-semibold">Milk Tea</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div
-              class="card_child max-w-[300px] justify-items-center bg-gray-200 rounded-md p-10"
-            >
-              <img src="./images/tea-2.png" alt="" />
-              <h4 class="font-semibold">Milk Tea</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div
-              class="card_child max-w-[300px] justify-items-center bg-gray-200 rounded-md p-10"
-            >
-              <img src="./images/tea-3.png" alt="" />
-              <h4 class="font-semibold">Milk Tea</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div
-              class="card_child max-w-[300px] justify-items-center bg-gray-200 rounded-md p-10"
-            >
-              <img src="./images/tea-4.png" alt="" />
-              <h4 class="font-semibold">Milk Tea</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Great Tea sectin code start here. -->
-      <section
-        class="great_tea_section mb-[50px] max-sm:mb-[10px] flex gap-5 max-sm:flex-col-reverse max-sm:items-center text-center  max-w-[1250px] m-auto"
-      >
-        <div
-          class="great_main grid grid-cols-2 grid-rows-3 gap-5 h-full w-1/2 max-sm:hidden"
-        >
-          <div
-            class="box_1 bg-gradient-to-r from-[#ff0000] to-[#ff8938] opacity-10 w-[238px]"
-          ></div>
-          <div
-            class="box_2 row-span-2 bg-gray-300 flex justify-center items-center w-[238px] h-[300px]"
-          >
-            <img src="./images/tea-1.png" alt="" />
-          </div>
-          <div
-            class="box_3 row-span-2 bg-gray-400 flex justify-center items-center w-[238px] h-[300px]"
-          >
-            <img src="./images/tea-2.png" alt="" />
-          </div>
-          <div
-            class="box_4 bg-gradient-to-r from-[#bda8a8] to-[#ffffff00] opacity-100 w-[238px]"
-          ></div>
-        </div>
-        <div
-          class="right_tea_div h-full w-1/2 max-sm:w-60 max-sm:text-center ml-[10px] text-left"
-        >
-          <h2 class="text-[35px] font-bold mb-[10px] max-sm:text-[25px]">
-            Great Tea, Freshly Presented
-          </h2>
-          <p class="mb-[15px] text-gray-500 max-sm:text-[13px]">
-            The meaning of gong cha is chanese is to provide the best tea to
-            emperor from all possessions . It represents the highest quality and
-            self expectation. Establishing in 2006, Gong cha had been deeply
-            appreciated by its custoers because of good words of mouth and
-            unique customized service orginated from Taiwan.
-          </p>
-          <h3 class="font-bold text-[25px] mb-[10px] max-sm:text-[25px]">
-            Unique Taste
-          </h3>
-          <p class="text-gray-500 mb-[10px] max-sm:text-[13px]">
-            A Unique and different style from other teapots gives a luxurious
-            and minimalist impression
-          </p>
-          <h4 class="text-[30px] font-bold max-sm:text-[25px]">
-            Premium Quality
-          </h4>
-          <p class="text-gray-500 my-[10px] max-sm:text-[13px]">
-            Premium Quality that makes tea more elegant and more durable when
-            you use Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Recusandae, eum? it.
-          </p>
-        </div>
-      </section>
-      <!-- Meet section -->
-      <section
-        class="meet_section   h-[60vh] max-sm:h-[100vh] bg-gradient-to-r from-[#ff8938] to-[#ff0000] relative"
-      >
-        <div class="meet_main flex max-sm:flex-col items-center gap-5  ">
-          <div class="meetLeft  border-blue-500 w-[500px] h-[250px] max-sm:w-[200px] ml-10 mt-25">
-            <h2 class="text-[35px] font-bold my-5">Meet Our Super Clients</h2>
-            <p class="my-5 text-white">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable.
-            </p>
-            <button class="py-2 px-10 bg-pink-500 rounded-lg">Show All</button>
-          </div>
-        <div class="meetRightMain max-sm:w-[100px]">
-          <div class="meetRight rounded-lg p-2 w-[350px] h-[200px]  bg-[#afa9a5] absolute top-40 left-[60%] z-10">
-            <p class="text-white my-5 ">
-              We are providing the best and suitable home insurance services for
-              the people who are interested to treatment
-            </p>
-            <h3 class="font-bold my-2 text-white">Ilham Yuda</h3>
-            <h5 class="text-white">Businessman</h5>
-               <img class="absolute -top-[30px] -left-[20px] rounded-[50%] p-[5px] bg-white" src="./images/client.png" alt="">
-          </div>
-          <div class="meetRight rounded-lg p-2 w-[350px] h-[200px]  bg-[#afa9a5] absolute top-[5%] left-[65%] opacity-[50%]">
-            <p class="text-white my-5 ">
-              We are providing the best and suitable home insurance services for
-              the people who are interested to treatment
-            </p>
-            <h3 class="font-bold my-2 text-white">Ilham Yuda</h3>
-            <h5 class="text-white">Businessman</h5>
-               <img class="absolute -top-[30px] -left-[20px] rounded-[50%] p-[5px] bg-white" src="./images/client.png" alt="">
-          </div>
-          <div class="meetRight rounded-lg p-2 w-[350px] h-[200px] absolute bg-[#afa9a5] top-[300px] left-[65%] opacity-30">
-            <p class="text-white my-5 ">
-              We are providing the best and suitable home insurance services for
-              the people who are interested to treatment
-            </p>
-            <h3 class="font-bold my-2 text-white">Ilham Yuda</h3>
-            <h5 class="text-white">Businessman</h5>
-               <img class="absolute -top-[30px] -left-[20px] rounded-[50%] p-[5px] bg-white" src="./images/client.png" alt="">
-          </div>
-          </div>
-
-        </div>
-      </section>
-      <!-- news nad events -->
-      <section>
-        <div class="news_main mb-10">
-          <div
-            class="news_title max-w-[500px] m-auto text-center max-sm:w-[300px]"
-          >
-            <h1 class="text-[35px] font-bold my-[10px] max-sm:text-[25px]">
-              News & Events
-            </h1>
-            <p class="text-gray-500 text-[18px] my-5 max-sm:text-[13px]">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable.
-            </p>
-          </div>
-          <div
-            class="news_card_main grid grid-cols-3 gap-2 max-sm:grid-cols-1 max-sm:justify-items-center"
-          >
-            <div
-              class="news_card text-left shadow-2xl w-[364px] h-[400px] max-sm:w-[300px] p-[10px] my-5"
-            >
-              <img
-                class="mx-2.5 max-sm:ml-[-1px]"
-                src="./images/news-1.png"
-                alt=""
-              />
-              <p class="text-[12px] text-gray-500 my-3">feb 05 2017</p>
-              <h3 class="font-bold">Collecting 8 points for discount</h3>
-              <p class="text-gray-500 my-3">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Tempora, sequi.
-              </p>
-              <h5 class="font-bold text-[14px]">Learn More</h5>
-            </div>
-
-            <div
-              class="news_card text-left shadow-2xl w-[364px] h-[400px] max-sm:w-[300px] p-[10px] my-5"
-            >
-              <img
-                class="mx-2.5 max-sm:ml-[-1px]"
-                src="./images/news-2.png"
-                alt=""
-              />
-              <p class="text-[12px] text-gray-500 my-3">feb 05 2017</p>
-              <h3 class="font-bold">Collecting 8 points for discount</h3>
-              <p class="text-gray-500 my-3">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Tempora, sequi.
-              </p>
-              <h5 class="font-bold text-[14px]">Learn More</h5>
-            </div>
-
-            <div
-              class="news_card text-left shadow-2xl w-[364px] h-[400px] p-[10px] max-sm:w-[300px] my-5"
-            >
-              <img
-                class="mx-2.5 max-sm:ml-[-1px]"
-                src="./images/news-3.png"
-                alt=""
-              />
-              <p class="text-[12px] text-gray-500 my-3">feb 05 2017</p>
-              <h3 class="font-bold">Collecting 8 points for discount</h3>
-              <p class="text-gray-500 my-3">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Tempora, sequi.
-              </p>
-              <h5 class="font-bold text-[14px]">Learn More</h5>
-            </div>
-          </div>
-        </div>
-      </section>
     </header>
-    <footer class="bg-gray-300 h-[30vh] max-w-[1200px] m-auto">
-      <div class="top_part_main flex justify-between items-center px-40">
-        <div>
-          <img class="w-[50px]" src="./images/bg_cup.png" alt="" />
-        </div>
-        <div class="flex gap-5">
-          <h5>Ready to get strated?</h5>
-          <div>
-            <button>Get Strated</button>
-          </div>
-        </div>
-      </div>
-      <hr />
-      <div class="buttom_part_main flex justify-between px-20">
-        <div>
-          <h2>Quick Links</h2>
-          <a href="#">Home</a>
-          <a href="#">About us</a>
-          <a href="#">Insurance</a>
-          <a href="#">Privacy Policy</a>
-        </div>
-        <div>
-          <h2>Our Service</h2>
-          <a href="#">Life Insurance</a>
-          <a href="#">Car Insurance</a>
-          <a href="#">health Insurance</a>
-          <a href="#">House Insurance</a>
-        </div>
-        <div>
-          <h2>Help</h2>
-          <a href="#">FAQs</a>
-          <a href="#">Contact Us</a>
-        </div>
-        <div class="subcribe_icon">
-          <h2>
-            Subscribe to our <br />
-            newsletter
-          </h2>
-          <input class="shadow-lg" type="text" placeholder="Email address" />
-          <span><i class="fa-brands fa-facebook"></i></span>
-          <span><i class="fa-brands fa-linkedin"></i></span>
-          <span><i class="fa-brands fa-instagram"></i></span>
-        </div>
-      </div>
-    </footer>
   </body>
 </html>

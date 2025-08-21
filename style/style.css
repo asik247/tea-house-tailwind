@@ -4,17 +4,3 @@
     font-family: "Manrope", sans-serif;
 }
 
-.buttom_part_main a{
- color: gray;
- display: block;
- font-size: 13px;
- margin-top: 5px;
-}
-.subcribe_icon span{
-    display: inline-block;
-    justify-content: space-between;
-   
-}
-.subcribe_icon input:focus{
-   outline: none;
-}
